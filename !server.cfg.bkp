@@ -1,0 +1,361 @@
+# ـــــــــــــــــــــــــــــــــــــــــــــــــــــ⭐⭐ رول بــلاي مــقــاطــعــة مــيــلانــو ⭐⭐ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ#
+
+#server owner milan county ⚡
+
+#- Abo Moaayad#1992 ⭐
+#- ! Bo Nasser#0001 ⭐
+
+# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+#endpoint_add_tcp "127.0.0.1:30110"
+
+
+#endpoint_add_tcp "127.0.0.1:30120"
+
+# minimum resources and config to get it working
+
+set mysql_connection_string "mysql://root:@localhost/es_extended?charset=utf8mb4" # خاص بالداتا بيس
+#
+setr SCREENSHOT_BASIC_TOKEN 7e20ef58b4778f6
+set NPWD_DISCORD_TOKEN "https://discord.com/api/webhooks/951799997110820884/8eHrVEqkC9UXNsMJwaEwmfULYUY-KIG92s81P6H6dqG-izgrjKJZRdYlrroQfKj4O_7V" # Quotations required
+ensure screenshot-basic
+ensure pma-voice
+
+setr voice_enableRadioAnim 1
+setr voice_useNativeAudio true
+setr voice_useSendingRangeOnly true
+setr voice_enableSubmix 1
+svgui
+#---- [ مـتـجـر مـقـاطـعـة مـيـلانـو ]----#
+ensure DiscordQueue # سكربت أولوية دخول السيرفر
+sv_tebexSecret e236db144251f22593f1fdb7e48743693b798eda
+
+
+
+#
+                #---- [ الـسـكـربـتـات ]----#
+
+ensure el_bwh #سكربت قائمة باند /فك باند اللاعبين
+ensure chat # سكربت الشات / الجريدة
+ensure gcphone # F1 سكربت الجوال عن طريق الـ 
+ensure esx_addons_gcphone # تابع لسكربت الجوال
+ensure abdulrhman_xplevel # سكربت اللفل / الخبرة
+ensure esx_basicneeds # السكربت الأساسي لتشغيل لتعبئة الأكل والشرب
+ensure esx_status # سكربت أساسي للأكل والشرب
+ensure esx_visa # سكربت تأشيرة دخول المقاطعة 
+ensure loading # سكربت اللودينق سكرين
+ensure esx_cruisecontrol # سكربت مثبت السرعة للمركبات / طائرات / قوارب
+ensure esx_addoninventory # F2 سكربت الحقيبة / الشنطة قائمة الـ 
+ensure esx_billing # سكربت المخالفات الواردة
+ensure esx_society # سكربت قائمة إجرئات مدير القطاع
+ensure esx_identity # سكربت الهوية الميلانية
+ensure jsfour-idcard # سكربت عرض الهوية  
+ensure esx_drugs # سكربت الممنوعات : حشيش أفيون الى أخ
+ensure esx_moneywash # سكربت غسيل الأموال
+ensure esx_ruskiarrest # سكربت الكلبشة للوظائف المعتمدة
+ensure esx_dmvschool # سكربت إختبار رخصة القيادة
+ensure esx_barbershop # سكربت الحلاق
+ensure interactSound # سكربت الأصوات الي داخل المقاطعة
+ensure pNotify # سكربت الأصوات الي داخل المقاطعة2 
+ensure progressBars
+ensure t-notify
+ensure instance
+ensure loaf_housing # سكربت البيوت 
+ensure esx_speedcamera # سكربت رادار ميلانو 
+ensure esx_accessories #F5 سكربت قائمة الـ 
+ensure esx_clotheshop # سكربت محل الملابس 
+ensure esx_joblisting # سكربت مركز التوظيف
+#ensure esx_weaponshop #معطل ## سكربت محل الأسلحة ##   
+ensure esx_optionalneeds # سكربت شرب الخمر     
+ensure esx_scoreboard # Z سكربت قائمة الـ  
+ensure esx_advancedgarage # سكربت كراجات 
+ensure esx_communityservice # سكربت الأعمال الشاقة
+ensure esx_jail # سكربت السجن 
+ensure esx-qalle-races # سكربت السباقات
+ensure esx_lscustom # تزويد الميكانيكي
+ensure esx_animations # الحركات
+ensure esx_animations2 # الصفع / والبعض من الحركات
+ensure esx_criminalrecords # تابع للحراسات الأمنية
+ensure esx_selldrug # سكربت تسليم الممنوعات
+ensure esx_outlawalert # سكربت بلاغات إطلاق النار
+ensure seatbelt # سكربت حزام الأمان
+ensure esx_jobCounter # سكربت تواجد الوظائف المعتمدة
+ensure esx_locksystem # قفل / فتح المركبة
+ensure speedometer # سكرب عداد السرعة 
+ensure esx_doorlock # سكربت قفل / فتح الأبواب
+#ensure esx-checkdeathcause # مغلق # سكربت فحص مكان الإصابة 
+ensure esx_detector # سكربت جهاز تبليغ الجهات الأمنية أنك تحمل سلاح
+ensure esx_bike-rental # سكربت تأجير الدراجات
+ensure esx_trunk # حقيبة المركبات
+ensure refuelingnozzle # سكربت تابع لتعبئة البانزين
+ensure LegacyFuel #سكربت تعبئة البانزين 
+ensure PvP # pvp
+ensure esx_vangelico_robbery # سكربت سرقة المجوهرات
+ensure pogressBar # pog
+ensure EngineToggle # سكربت تم تشغيل / إيقاف المحرك
+ensure NativeUI # Na
+ensure esx_shops2 # سكربت المتاجر 2
+ensure esx_shops1 # سكربت المتاجر 1
+ensure lightbarScript # قائمة تركيب السيفتي
+ensure npc_control #np
+#ensure RACL-FX #fx
+ensure esx_adminplus
+start milan_props # ملابس السيرفر
+ensure mythic_notify # my
+ensure mythic_progbar # my2
+#ensure AnchorBoat #مغلق    #      تثبيت / تحريك القارب    
+ensure mythic_progressbar # my
+ensure esx_property # سكربت البيوت
+ensure esx_driveffect # سكربت تدوخ إذا صدمت
+ensure esx_headbag # سكربت الخيشة 
+ensure np-fuel # سكربت تعبئة البانزين
+ensure dletbot
+ensure esx_disconnect # سكربت إذا فصل يجي علامة
+ensure esx_ammofill # تعبئة الطلقات
+ensure esx_atm # سكربت الصرافات
+ensure taximap # سكربت التاكسي
+ensure addonpack_veh
+ensure utk_fleeca
+ensure utk_ornateheist
+ensure utk_ornateprops
+ensure uptime
+#ensure vMenu # المنيو
+ensure ebu_flatbedsv3 # أمر السطحة بالواير
+#
+                   #---- [ الـمـابـات ]----#
+ensure shppingyard # ماب 1
+ensure FixHolesOnMap # ماب 2
+ensure map
+ensure hospitalsandy
+ensure hospitalint # 
+ensure smedical-mlo
+ensure milanprison # مابات ميلانو
+ensure gabz_pillbox_hospital
+ensure addonpack_siuuuuuuu
+enusre admin-map
+ensure pw-paleto-clinic
+ensure mosleynutt
+ensure milan_map
+ensure rfc_eastcostums_fivem
+ensure policetraining
+ensure autoschool
+ensure platinum_cars
+ensure pd_sandy #  ماب الشرطة ساندي
+ensure mlo_paleto # ماب الشرطة بوليتو
+ensure paleto247 #بقالة بوليتو محطة
+ensure paleto_liquor #بقالة بليتو 2
+ensure xerogasstation #بقالة لوس محطة
+ensure mrpd # ماب مركز
+ensure addon_props
+ensure cityhallv2
+ensure HousingShells # ماب البيوت 
+ensure ikea # ماب ايكيا 
+#
+                 #---- [ الـمـركـبـات ]----#
+ensure Engine # صوت المركبات
+start milan_cars
+start milan_leocars
+ensure esx_flatbed
+ensure lightbars
+
+                  #---- [ الـوظـائـف ]----#
+ensure leojob # الوظائف تجيمع لكل القطاعات
+ensure esx_jobs # الوظائف العامة
+ensure esx_seaportjob # وظيفة أمن الموانئ
+ensure esx_adminjob # وظيفة الراقابة والتفتيش
+ensure esx_AdvancedFishing # وظيفة الأسماك
+ensure esx_policejob # وظيفة إدارة الشرطة
+ensure esx_agentjob # وظيفة الحراسات الأمنية
+ensure esx_ambulancejob # وظيفة الدفاع المدني
+ensure esx_mechanicjob # وظيفة الميكانيكي
+ensure esx_taxijob # وظيفة التاكسي
+
+                  #---- [ الـبـكـجـات ]----#
+ensure esx_misc # بكج 1
+ensure esx_misc2 # بكج 2
+ensure esx_misc3 # بكج 3
+ensure esx_misc4 # بكج 4
+
+              #---- [  الـنـظـام الـصـوتـي ]----#
+ensure esx-radio # سكربت الراديو
+ensure [GCPHONE]
+ensure [Casino]
+            #---- [ الـمـعـارض]----#
+
+ensure esx_vehicleshop # معرض المركبات الوكالة
+ensure esx_truckshop # معرض الشاحنات الوكالة
+ensure esx_boatshop # معرض القوارب الوكالة
+ensure esx_aircraftshop # معرض القوارب الوكالة
+ensure esx_sellboats # سكربت معرض القوارب المستعملة
+ensure esx_sellaircrafts # سكربت معرض الطائرات المستعملة
+ensure esx_sellvehicles # سكربت معرض المركبات المستعملة 
+ensure esx_selltrucks # سكربت معرض الشاحنات المستعملة
+                   #---- [ Discord ]----#
+
+ensure discordroles # سكربت ربط الرولات باللعبة
+ensure discord_perms # سكربت عشان يضبط الرولات باللعبة
+ensure Whitelist # سكربت الوايت ليست لازم يتفعل بالديسكورد عشان يدخل السيرفر
+ensure ensure Badger_Discord_API # سكربت الوايت ليست 2
+ensure ensure esx_discord_bot # لوقات اللعبة
+ensure Guardian # سكربت متعلق بالتأشيرة
+ensure JD_logs # لوقات
+              #---- [ سـكـربـتـات أسـاسـيـة ]----#
+
+ensure es_extended # أهم سكربت في تشغيل النظام + الأوامر
+ensure mysql-async # سكربت أساسي 
+ensure cron # سكربت أساسي 
+ensure async # 2 سكربت أساسي 
+ensure esx_addonaccount #سكربت أساسي 3
+ensure esx_datastore #سكربت أساسي 4
+ensure esx_license # سكربت أساسي 5
+ensure esx_service # سكربت أساسي 6
+ensure wk_wars2x # سكربت اساسي 7
+ensure esx_securitycam # سكربت أساسي 8
+ensure skinchanger # سكربت قائمة الملابس المتعلقة بالريسبون 
+ensure esx_skin # سكربت تابع لقائمة الملابس
+ensure esx_menu_default # F2 سكربت القوائم مثل 
+ensure esx_menu_list # تابع لسكربت القوائم
+ensure esx_menu_dialog  # تابع لسكربت القوائم
+ensure [centralhiest]
+#
+        #---- [ vMenu أوامر مـتـعـلـقة بالـ  ]----#
+
+add_principal group.admin group.user
+add_ace resource.es_extended command.add_ace allow
+add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.remove_principal allow
+add_ace resource.es_extended command.stop allow
+
+#
+         #---- [ FiveM أوامـر مـتعـلقـة بالـ  ]----#
+
+setr ea_LanguageName "en"
+setr ea_defaultKey "F4"
+
+#exec resources/vMenu/config/permissions.cfg
+#add_ace group.admin "vMenu.Everything" allow
+#setr vmenu_bans_database_filepath "resources/vMenu/"
+#ensure vMenu
+
+ensure zb_earth
+
+# This allows players to use scripthook-based plugins such as the legacy Lambda Menu.
+# Set this to 1 to allow scripthook. Do note that this does _not_ guarantee players won't be able to use external plugins.
+sv_scriptHookAllowed 0
+
+# Uncomment this and set a password to enable RCON. Make sure to change the password - it should look like rcon_password "YOURPASSWORD"
+#rcon_password "abdulrhman_ajnbd62tygasnnm82komvn29maw203mbb2ad"
+
+# A comma-separated list of tags for your server.
+# For example:
+# - sets tags "drifting, cars, racing"
+# Or:
+# - sets tags "roleplay, military, tanks"
+#sets tags "esx, police, ambulance, jobs, roleplay, rp, arab"
+sets tags "esx"
+
+sets الديسكورد "https://discord.gg/mla"
+
+# A valid locale identifier for your server's primary language.
+# For example "en-US", "fr-CA", "nl-NL", "de-DE", "en-GB", "pt-BR"
+sets locale "ar-SA" 
+# please DO replace root-AQ on the line ABOVE with a real language! :)
+
+# Set an optional server info and connecting banner image url.
+# Size doesn't matter, any banner sized image will be fine.
+sets banner_detail "https://cdn.discordapp.com/attachments/931300530393874482/939213132881076224/399591e5cc4852f1.png"
+sets banner_connecting "https://cdn.discordapp.com/attachments/931300530393874482/939213132881076224/399591e5cc4852f1.png"
+
+# Set your server's hostname
+sv_hostname "⚡⚡ رول بلاي مقاطعة ميلانو ⚡⚡"
+
+# Set your server's Project Name
+sets sv_projectName " ^1مقاطعة ميلانو"
+
+# Set your server's Project Description
+sets sv_projectDesc "رول بلاي حياة واقعية عربي تفعيل فوري بدون مقابلات"
+
+# Nested configs!
+#exec server_internal.cfg
+
+# Loading a server icon (96x96 PNG file)
+load_server_icon mylogo.png
+
+# convars which can be used in scripts
+set temp_convar "hey world!"
+
+# Remove the `#` from the below line if you do not want your server to be listed in the server browser.
+# Do not edit it if you *do* want your server listed.
+#sv_master1 ""
+
+# Add system admins
+add_ace group.admin command allow # allow all commands
+add_ace group.admin command.quit deny # but don't allow quit
+add_ace group.admin easyadmin allow # easyadmin
+add_ace group.admin Editor allowing # easyadmin 2
+#add_principal identifier.fivem:1 group.admin # add the admin to the group
+
+add_principal identifier.steam:1100001362085dd group.admin # ABDULRHMAN_1
+
+set ea_moderationNotification "true"
+set ea_detailNotification "true"
+set ea_moderationNotification "https://discord.com/api/webhooks/908639519484547083/apjsO7wd0DnNWQaqEfqwo9SfwaRTQUZVSA197I_ltAWDZOxCE1wOa7W0KDVDeu9BXT3l"
+set ea_detailNotification "https://discord.com/api/webhooks/908639754273320970/kZDG5pxqxNAbIY7b7-kOy_BXyCqgJRt1pA_1CyAMjVlpD7wIi3AnY_tl6a0nJLnN-ozB"
+set ea_screenshoturl "https://discord.com/api/webhooks/908644313158782976/5V7F5WG4ksTq_Nm03weX_NFktYgGSs2_xx-T04RgARaoSnS4PCE65wiTph9nDzkK_-9a"
+
+# enable OneSync (required for server-side state awareness)
+set onesync on
+#set onesync on # +set onesync on | cmd
+
+
+# Server player slot limit (see https://fivem.net/server-hosting for limits)
+sv_maxclients 128
+
+# Steam Web API key, if you want to use Steam authentication (https://steamcommunity.com/dev/apikey)
+# -> replace "" with the key
+set steam_webApiKey "66504A079B9603B25FEA7102E8FC1797"
+
+
+# License key for your server (https://keymaster.fivem.net)
+#sv_licenseKey cfxk_EFIA1Hhl8pvMbekW1eq3_3RA1CR ## Ramoul
+sv_licenseKey cfxk_Gm8SK0VvTBWWzQXqlaXd_1lO1DA
+#cfxk_1PoFTyG28qER33D7UccY2_2pksUw
+
+
+
+exec easyadmin_permissions.cfg
+
+add_ace resource.es_extended command.add_ace allow
+add_ace resource.es_extended command.add_principal allow
+add_ace resource.es_extended command.remove_principal allow
+add_ace resource.es_extended command.stop allow
+add_ace CHADMIN chocohaxadministrator allow
+add_ace CHMOD chocohaxmoderator allow
+add_ace group.admin command allow
+add_ace group.admin command.quit deny
+add_ace group.admin easyadmin allow
+add_ace group.admin Editor allowing
+add_principal group.admin group.user
+add_principal identifier. CHADMIN
+add_principal identifier. group.admin
+add_principal identifier. group.admin
+
+
+#
+                   #---- [🛑 فــئــة 1 يمنع الإقتراب 🛑 ]----#
+
+ensure mapmanager
+ensure spawnmanager
+ensure sessionmanager
+ensure hardcap
+ensure rconlog
+ensure baseevents
+
+#
+                  #---- [ sv_licenseKey ]----#
+
+#
+
+#- discord milan county : https://discord.gg/mla
+# ـــــــــــــــــــــــــــــــــــــــــــــــــــــ⭐⭐ رول بــلاي مــقــاطــعــة مــيــلانــو ⭐⭐ـــــــــــــــــــــــــــــــــــــــــــــــــــــــ#
